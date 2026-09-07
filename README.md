@@ -1,16 +1,58 @@
-# React + Vite
+# DevFlow – Developer Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive developer productivity dashboard built with React.js and Vite.
 
-Currently, two official plugins are available:
+This project was developed as **Task 1 – Modern Frontend Development** for the Innovation Hacks Full Stack Development Internship.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Responsive developer productivity dashboard
+- Navigation bar with Dashboard, Projects, and Tasks
+- User profile section
+- Project cards with:
+  - Project name
+  - Description
+  - Status
+  - Progress percentage
+  - Task completion count
+- Project progress indicators
+- Project search functionality
+- Create new project functionality
+- Loading state
+- Empty state for no search results
+- Responsive design for desktop, tablet, and mobile screens
+- Reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+task1-dashboard/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   └── StatsCard.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
